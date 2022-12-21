@@ -86,7 +86,7 @@
   <script src="https://cdn.staticfile.org/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdn.staticfile.org/semantic-ui/2.4.1/semantic.min.js"></script>
   <script type="text/javascript">
-    var ctJson = "https://testteattestsslmonitor.vercel.app/ct.json?" + new Date().getTime() + Math.random()
+    var ctJson = "./ct.json?" + new Date().getTime() + Math.random()
     $.getJSON(ctJson, function (data) {
       $.each(data, function (index, value) {
         $("#result").append(`
